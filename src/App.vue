@@ -2,8 +2,8 @@
   <v-app>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span>SISTEMA</span>
+        <span class="font-weight-light"> Ventas</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -14,9 +14,12 @@
         <span class="mr-2">Latest Release</span>
       </v-btn>
     </v-toolbar>
-      <Menu></Menu>
+
     <v-content>
-      <HelloWorld/>
+      <Menu></Menu>
+      <router-view>
+        
+      </router-view>
     </v-content>
   </v-app>
 </template>
