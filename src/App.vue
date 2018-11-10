@@ -14,7 +14,7 @@
         <span class="mr-2">Latest Release</span>
       </v-btn>
     </v-toolbar>
-      <v-menu></v-menu>
+      <Menu></Menu>
     <v-content>
       <HelloWorld/>
     </v-content>
